@@ -38,6 +38,8 @@ SixSixTime.configure_location(country: 'United States', latitude: 47, longitude:
 SixSixTime.now.to_s #=> "2022-03-18 05 20/60 PM PDT"
 ```
 
+Please ignore the poles. I'm not even going to test that.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
